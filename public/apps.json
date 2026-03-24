@@ -1,0 +1,24 @@
+{
+  "apps": [
+    {"name": "FocusBurn", "id": "6760933798", "tagline": "Minimalist Pomodoro Timer", "icon": "🔥", "price": "$1.99", "platform": "macOS"},
+    {"name": "FocusTimer", "id": "6760957738", "tagline": "Menu Bar Pomodoro Clock", "icon": "⏱️", "price": "$1.99", "platform": "macOS"},
+    {"name": "PasteSnap", "id": "6760957898", "tagline": "Screenshot OCR Tool", "icon": "📋", "price": "$2.99", "platform": "macOS"},
+    {"name": "TimerStack", "id": "6760957957", "tagline": "Multi Timer Manager", "icon": "⏳", "price": "$1.99", "platform": "macOS"},
+    {"name": "SpeedType", "id": "6760957724", "tagline": "Typing Speed Trainer", "icon": "⌨️", "price": "$1.99", "platform": "macOS"},
+    {"name": "PasteMate", "id": "6760957703", "tagline": "Smart Clipboard Manager", "icon": "📎", "price": "$2.99", "platform": "macOS"},
+    {"name": "TextTally", "id": "6760958175", "tagline": "Word Counter & Text Analysis", "icon": "🔢", "price": "$0.99", "platform": "macOS"},
+    {"name": "TextCraft", "id": "6760958256", "tagline": "Text Transform Tool", "icon": "✏️", "price": "$0.99", "platform": "macOS"},
+    {"name": "ScreenDim", "id": "6760958173", "tagline": "Display Brightness Control", "icon": "🔅", "price": "$1.99", "platform": "macOS"},
+    {"name": "RulerBoard", "id": "6760958117", "tagline": "Screen Pixel Ruler", "icon": "📏", "price": "$2.99", "platform": "macOS"},
+    {"name": "JSONPeek", "id": "6760958010", "tagline": "JSON Viewer & Editor", "icon": "🔍", "price": "$2.99", "platform": "macOS"},
+    {"name": "IconForge", "id": "6760958094", "tagline": "App Icon Generator", "icon": "🎨", "price": "$2.99", "platform": "macOS"},
+    {"name": "HashGuard", "id": "6760958203", "tagline": "File Hash Verifier", "icon": "🔐", "price": "$1.99", "platform": "macOS"},
+    {"name": "HashCheck", "id": "6760958112", "tagline": "Quick File Checksum", "icon": "✅", "price": "$1.99", "platform": "macOS"},
+    {"name": "ClipStack", "id": "6760957923", "tagline": "Clipboard History Manager", "icon": "📚", "price": "$2.99", "platform": "macOS"},
+    {"name": "BatchRename", "id": "6760957859", "tagline": "Bulk File Renaming", "icon": "📁", "price": "$1.99", "platform": "macOS"},
+    {"name": "ColorSnap", "id": "6760958001", "tagline": "Menu Bar Color Picker", "icon": "🎯", "price": "$1.99", "platform": "macOS"}
+  ],
+  "featured": "Feedii",
+  "featuredId": "6753751575",
+  "updated": "2026-03-24"
+}
