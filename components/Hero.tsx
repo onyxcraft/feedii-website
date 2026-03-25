@@ -14,18 +14,17 @@ export default function Hero() {
           {/* Left Column - Content */}
           <div className="text-center lg:text-left space-y-8 animate-fade-in">
             <div className="inline-block px-4 py-2 bg-primary-100 dark:bg-primary-900/30 rounded-full text-primary-700 dark:text-primary-300 text-sm font-semibold">
-              AI-Powered Nutrition Tracking
+              Snap → Analyze → Guide
             </div>
 
             <h1 className="heading-1">
-              Track Nutrition{' '}
-              <span className="text-gradient">Effortlessly</span>{' '}
-              with AI
+              The AI That{' '}
+              <span className="text-gradient">Guides</span>{' '}
+              Your Next Meal
             </h1>
 
             <p className="text-xl text-gray-600 dark:text-gray-400 max-w-2xl mx-auto lg:mx-0">
-              Snap a photo. Get instant nutrition insights. Powered by advanced AI.
-              Transform the way you track your health journey.
+              Most apps just record. Feedii tells you <strong>what to eat next</strong>. Snap a photo, get instant nutrition analysis, and receive personalized meal suggestions — all in seconds.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">

@@ -31,18 +31,24 @@ export default function HowItWorks() {
   const steps = [
     {
       icon: '📸',
-      title: 'Snap a Photo',
-      description: 'Take a picture of your meal with your phone camera. Our AI instantly identifies the food.',
+      title: 'Snap',
+      subtitle: 'Capture in Seconds',
+      description: 'Photo, barcode, or text — log any meal in seconds. Works for home cooking, takeout, restaurant menus, and cafeteria food.',
+      tag: '55% of users quit because it\'s too slow. Feedii is instant.',
     },
     {
-      icon: '📊',
-      title: 'Get Nutrition Data',
-      description: 'Receive detailed nutrition information including calories, macros, vitamins, and minerals.',
+      icon: '🧠',
+      title: 'Analyze',
+      subtitle: 'AI That Learns You',
+      description: 'Get instant calories, macros, and nutrients. Feedii\'s AI remembers your meals — the more you use it, the more accurate it gets.',
+      tag: 'Confidence score + one-tap correction → AI improves every time.',
     },
     {
-      icon: '📈',
-      title: 'Track Progress',
-      description: 'View beautiful charts and insights about your nutrition trends over time.',
+      icon: '🎯',
+      title: 'Guide',
+      subtitle: 'What to Eat Next',
+      description: 'Feedii doesn\'t just record — it tells you what to eat next based on your goals, remaining budget, and what you actually enjoy.',
+      tag: '62% of users said next-meal suggestions would help them stay on track.',
     },
   ]
 
@@ -52,7 +58,7 @@ export default function HowItWorks() {
         <div className="text-center mb-16">
           <h2 className="heading-2 mb-4">How It Works</h2>
           <p className="text-xl text-gray-600 dark:text-gray-400 max-w-3xl mx-auto">
-            Start tracking your nutrition in three simple steps. No manual entry, no hassle.
+            Most apps just record. Feedii <strong>guides</strong> you — from your first snap to your next meal decision.
           </p>
         </div>
 
@@ -73,11 +79,17 @@ export default function HowItWorks() {
 
               {/* Card */}
               <div className="card h-full pt-8">
-                <div className="text-6xl mb-6 text-center">{step.icon}</div>
-                <h3 className="heading-3 mb-4 text-center">{step.title}</h3>
-                <p className="text-gray-600 dark:text-gray-400 text-center leading-relaxed">
+                <div className="text-6xl mb-4 text-center">{step.icon}</div>
+                <h3 className="heading-3 mb-1 text-center">{step.title}</h3>
+                <p className="text-sm font-semibold text-primary-500 text-center mb-4">{step.subtitle}</p>
+                <p className="text-gray-600 dark:text-gray-400 text-center leading-relaxed mb-4">
                   {step.description}
                 </p>
+                {step.tag && (
+                  <p className="text-xs text-gray-400 dark:text-gray-500 text-center italic border-t border-gray-100 dark:border-gray-800 pt-3">
+                    {step.tag}
+                  </p>
+                )}
               </div>
 
               {/* Arrow between steps (not on mobile, not on last step) */}
