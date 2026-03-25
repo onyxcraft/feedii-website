@@ -53,8 +53,26 @@ export default function FAQ() {
     },
   ]
 
+  const faqJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faqs.map((faq) => ({
+      '@type': 'Question',
+      name: faq.question,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: faq.answer,
+      },
+    })),
+  }
+
   return (
-    <section id="faq" ref={sectionRef} className="section-padding bg-gray-50 dark:bg-gray-800/50">
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+      />
+      <section id="faq" ref={sectionRef} className="section-padding bg-gray-50 dark:bg-gray-800/50">
       <div className="container-custom">
         <div className="text-center mb-16">
           <h2 className="heading-2 mb-4">Frequently Asked Questions</h2>
@@ -112,5 +130,6 @@ export default function FAQ() {
         </div>
       </div>
     </section>
+    </>
   )
 }
