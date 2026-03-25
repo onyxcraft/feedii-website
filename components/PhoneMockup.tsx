@@ -6,6 +6,8 @@ export default function PhoneMockup() {
         className="w-full h-auto drop-shadow-2xl"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
+        role="img"
+        aria-label="Feedii app interface mockup showing nutrition tracking dashboard"
       >
         {/* Phone Body */}
         <rect
